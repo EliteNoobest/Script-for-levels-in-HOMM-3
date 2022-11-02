@@ -15,3 +15,4 @@ for i in range(2, 135):
 f = open('fileNEW.txt', 'w')
 for i in range(len(a)):
     f.writelines(a[i])
+    print(a[i])
